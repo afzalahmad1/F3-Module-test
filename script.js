@@ -32,7 +32,7 @@ document.getElementById("get-data").addEventListener("click", () => {
 
         document.getElementById(
           "map"
-        ).innerHTML += `<iframe src="https://maps.google.com/maps?q=${lat}, ${long}&z=15&output=embed" width="1450" height="300" frameborder="0" style="border:0"></iframe>`;
+        ).innerHTML += `<iframe src="https://maps.google.com/maps?q=${lat}, ${long}&z=15&output=embed" width="1277" height="300" frameborder="0" style="border:0"></iframe>`;
         fetch(`https://ipinfo.io/${ipAddress}?token=49c4ba97c56bbc`)
           .then((response) => response.json())
           .then((data) => {
