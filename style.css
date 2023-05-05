@@ -1,0 +1,43 @@
+body{
+    margin:20px;
+}
+#get-data{
+    color:white;
+    padding: 7px;
+    background-color: black;
+    width: 200px;
+    border-radius: 5px;
+}
+.container{
+    display: none;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 30px 30px;
+}
+#map{
+    margin:15px 15px;
+}
+
+.abc{
+    display: none;
+}
+.input{
+    width: 1430px;
+    margin: 10px 0;
+    padding: 15px;
+    display: none;
+
+}
+.p{
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+}
+#postoffice-details{
+    display: none;
+    grid-template-columns: repeat(4,auto);
+    gap: 20px;
+}

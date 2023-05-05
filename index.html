@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module Test</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <div>
+      <h1 id="ipAddress">My Public IP ADDRESS:</h1>
+      <button id="get-data">Get Data</button>
+      <div class="container">
+        <div>
+          <span id="lat">Lat:</span>
+          <br />
+          <span id="long">Long:</span>
+        </div>
+        <div>
+          <span id="city">City:</span>
+          <br />
+          <span id="region">Region:</span>
+        </div>
+        <div>
+          <span id="organisation">Organisation:</span>
+          <br />
+          <span id="hostname">Hostname:</span>
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
+    <div class="abc">
+      <p id="time-zone"><strong>Time Zone</strong></p>
+      <p id="date"><strong>Date and Time</strong></p>
+      <p id="pincode"><strong></strong></p>
+      <p id="message"><strong></strong></p>
+    </div>
+
+      <input type="text" placeholder="Filter by Name or Block"  class="input" id="input" />
+      
+    
+    
+
+    <div id="postoffice-details">
+    </div>
+
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
